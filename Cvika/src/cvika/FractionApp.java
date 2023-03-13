@@ -7,9 +7,9 @@ package cv2;
 public class FractionApp
 {
     public static void main(final String[] args) {
-        final Fraction A = new Fraction(5, 2);
-        final Fraction B = new Fraction(4);
-        final Fraction C = new Fraction("8/2");
+        Fraction A = new Fraction(5, 2);
+        Fraction B = new Fraction(4);
+        Fraction C = new Fraction("8/2");
         C.zt();
         System.out.println(C);
         System.out.println(B.getcit());
